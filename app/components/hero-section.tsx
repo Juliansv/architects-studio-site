@@ -8,17 +8,18 @@ const HeroSection = () => {
         <Link href="#" className="fixed top-0 left-0 w-full h-full z-0">
           <div className="opacity-80">
             <Image
-              src="/images/odicy-lido.webp"
+              src="/images/odicy-hotel.webp"
               alt="odicy-lido"
               width={1600}
               height={1600}
-              className="h-screen w-full"
+              className="h-screen w-full object-cover"
             />
           </div>
           <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center z-20">
-            <div className="m-0 z-40 pt-0 pb-0 text-center">
-              <h1 className="text-5xl font-bold ">Odicy Lido</h1>
-              <p className="pt-2">QAWRA, MALTA</p>
+            <div className="m-0 z-40 pt-0 pb-0 text-center flex flex-col gap-2">
+              <h1 className="text-5xl font-bold ">Odicy Hotel</h1>
+              <p className="text-4xl font-semibold px-1">A Landmark Identity Reimagined <br /> for Modern Comfort</p>
+              <p>QAWRA, MALTA</p>
             </div>
           </div>
         </Link>
@@ -31,13 +32,13 @@ const HeroSection = () => {
               alt="odicy-lido"
               width={1600}
               height={1600}
-              className="h-screen w-full"
+              className="h-screen w-full object-cover"
             />
           </div>
           <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center z-20">
-            <div className="m-0 z-40 pt-0 pb-0 text-center">
+            <div className="m-0 z-40 pt-0 pb-0 text-center flex flex-col gap-2">
               <h1 className="text-5xl font-bold ">Salvo Grima Group </h1>
-              <p className="pt-2">MARSA, MALTA</p>
+              <p>MARSA, MALTA</p>
             </div>
           </div>
         </Link>
@@ -46,17 +47,17 @@ const HeroSection = () => {
         <Link href="#" className="fixed top-0 left-0 w-full h-full z-0">
           <div className="opacity-80">
             <Image
-              src="/images/odicy-hotel.webp"
+              src="/images/odicy-lido.webp"
               alt="odicy-lido"
               width={1600}
               height={1600}
-              className="h-screen w-full"
+              className="h-screen w-full object-cover"
             />
           </div>
           <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center z-20">
-            <div className="m-0 z-40 pt-0 pb-0 text-center">
-              <h1 className="text-5xl font-bold ">Odicy Hotel</h1>
-              <p className="pt-2">QAWRA, MALTA</p>
+            <div className="m-0 z-40 pt-0 pb-0 text-center flex flex-col gap-2">
+              <h1 className="text-5xl font-bold ">Odicy Lido</h1>
+              <p>QAWRA, MALTA</p>
             </div>
           </div>
         </Link>
@@ -69,13 +70,13 @@ const HeroSection = () => {
               alt="odicy-lido"
               width={1600}
               height={1600}
-              className="h-screen w-full"
+              className="h-screen w-full object-cover"
             />
           </div>
           <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center z-20">
-            <div className="m-0 z-40 pt-0 pb-0 text-center">
+            <div className="m-0 z-40 pt-0 pb-0 text-center flex flex-col gap-2">
               <h1 className="text-5xl font-bold ">Mellieha Villa</h1>
-              <p className="pt-2">MELLIEHA, MALTA</p>
+              <p>MELLIEHA, MALTA</p>
             </div>
           </div>
         </Link>
