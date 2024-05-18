@@ -18,7 +18,7 @@ const HeroSection = () => {
           <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center z-20">
             <div className="m-0 z-40 pt-0 pb-0 text-center flex flex-col gap-2">
               <h1 className="text-5xl font-bold ">Odicy Hotel</h1>
-              <p className="text-4xl font-semibold px-1">A Landmark Identity Reimagined <br /> for Modern Comfort</p>
+              <p className="text-4xl font-semibold px-1 leading-tight">A Landmark Identity Reimagined <br /> for Modern Comfort</p>
               <p>QAWRA, MALTA</p>
             </div>
           </div>
@@ -38,6 +38,7 @@ const HeroSection = () => {
           <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center z-20">
             <div className="m-0 z-40 pt-0 pb-0 text-center flex flex-col gap-2">
               <h1 className="text-5xl font-bold ">Salvo Grima Group </h1>
+              <p className="text-4xl font-semibold px-1 leading-tight">Offices Merging Innovation <br /> with Well-Being</p>
               <p>MARSA, MALTA</p>
             </div>
           </div>
@@ -57,6 +58,7 @@ const HeroSection = () => {
           <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center z-20">
             <div className="m-0 z-40 pt-0 pb-0 text-center flex flex-col gap-2">
               <h1 className="text-5xl font-bold ">Odicy Lido</h1>
+              <p className="text-4xl font-semibold px-1 leading-tight ">Revitalizing Qawra&apos;s Coastal Charm</p>
               <p>QAWRA, MALTA</p>
             </div>
           </div>
