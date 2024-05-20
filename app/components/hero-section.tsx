@@ -4,7 +4,7 @@ import Link from "next/link";
 const HeroSection = () => {
   return (
     <section id="hero-section" className="relative z-0 text-white bg-[#231f20]">
-      <div className="relative h-screen overflow-hidden clip-path-0">
+      <div className="relative h-screen max-h-screen overflow-hidden clip-path-0">
         <Link href="#" className="fixed top-0 left-0 w-full h-full z-0">
           <div className="opacity-80">
             <Image
@@ -12,7 +12,7 @@ const HeroSection = () => {
               alt="odicy-lido"
               width={1600}
               height={1600}
-              className="h-screen w-full object-cover"
+              className="h-screen max-h-screen w-full object-cover"
             />
           </div>
           <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center z-20">
