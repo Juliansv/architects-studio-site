@@ -42,7 +42,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex pt-2">
-          <p className="m-auto text-xs">Copyright © 2024 box Concept Studio Ltd.</p>
+          <p className="m-auto text-xs">Copyright © 2024 Box Concept Studio Ltd.</p>
         </div>
       </div>
     </section>
