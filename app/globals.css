@@ -34,6 +34,11 @@
 		animation-fill-mode: forwards;
 	}
 
+	.title-slide-in-top-750 {
+		animation: title-slide-in-top 0.75s ease-out;
+		animation-fill-mode: forwards;
+	}
+
 	.title-slide-in-top-1000 {
 		animation: title-slide-in-top 1s ease-out;
 		animation-fill-mode: forwards;
