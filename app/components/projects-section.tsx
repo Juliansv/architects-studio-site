@@ -15,7 +15,7 @@ const ProjectsSection = () => {
 							alt="odicy-lido"
 							width={1600}
 							height={1600}
-							className="h-screen max-h-screen w-full cursor-default object-cover"
+							className="h-screen max-h-screen w-full cursor-default object-cover img-fade-in-3000"
 						/>
 					</div>
 					<div className="absolute left-0 top-0 z-20 flex h-full w-full flex-col items-center justify-center">
@@ -37,7 +37,7 @@ const ProjectsSection = () => {
 							alt="odicy-lido"
 							width={1600}
 							height={1600}
-							className="h-screen w-full object-cover"
+							className="h-screen w-full object-cover img-fade-in-3000"
 						/>
 					</div>
 					<div className="absolute left-0 top-0 z-20 flex h-full w-full flex-col items-center justify-center">
@@ -59,7 +59,7 @@ const ProjectsSection = () => {
 							alt="odicy-lido"
 							width={1600}
 							height={1600}
-							className="h-screen w-full object-cover"
+							className="h-screen w-full object-cover img-fade-in-2000"
 						/>
 					</div>
 					<div className="absolute left-0 top-0 z-20 flex h-full w-full flex-col items-center justify-center">
@@ -81,7 +81,7 @@ const ProjectsSection = () => {
 							alt="odicy-lido"
 							width={1600}
 							height={1600}
-							className="h-screen w-full object-cover"
+							className="h-screen w-full object-cover img-fade-in-3000"
 						/>
 					</div>
 					<div className="absolute left-0 top-0 z-20 flex h-full w-full flex-col items-center justify-center">

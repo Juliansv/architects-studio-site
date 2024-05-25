@@ -24,8 +24,8 @@
 		animation-fill-mode: forwards;
 	}
 
-	.img-fade-in-3000 {
-		animation: img-fade-in 3s ease;
+	.img-fade-in-2000 {
+		animation: img-fade-in 2s ease;
 	}
 
 	.slide-in-1000 {
