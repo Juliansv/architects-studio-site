@@ -3,9 +3,7 @@ import Image from "next/image";
 const TeamSection = () => {
 	return (
 		<section id="team-section" className="relative z-0 text-white">
-			<div className="left-0 top-0 z-0 flex h-32  w-full items-center justify-center bg-[#d3cecb]">
-				<h2 className="text-6xl font-bold text-stone-800">Team</h2>
-			</div>
+			<div className="left-0 top-0 z-0 flex h-20  w-full items-center justify-center bg-[#d3cecb]"></div>
 			<div className=" bg-stone-300 px-5 2xl:px-72">
 				<div id="co-founders" className="grid grid-cols-1 md:grid-cols-2">
 					<div className=" m-auto flex flex-col justify-between gap-2 p-8 md:p-24">

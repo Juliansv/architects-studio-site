@@ -34,13 +34,23 @@
 		animation-fill-mode: forwards;
 	}
 
-	.title-slide-in-top-750 {
-		animation: title-slide-in-top 0.75s ease-out;
+	.slide-in-right {
+		animation: slide-in-right 1s ease-out;
 		animation-fill-mode: forwards;
 	}
 
-	.title-slide-in-top-1000 {
-		animation: title-slide-in-top 1s ease-out;
+	.slide-in-bottom-1000 {
+		animation: slide-in-bottom 1s ease-out;
+		animation-fill-mode: forwards;
+	}
+
+	.text-slide-in-top-750 {
+		animation: text-slide-in-top 0.75s ease-out;
+		animation-fill-mode: forwards;
+	}
+
+	.text-slide-in-top-1000 {
+		animation: text-slide-in-top 1s ease-out;
 		animation-fill-mode: forwards;
 	}
 
@@ -50,6 +60,17 @@
 		animation-timeline: view();
 		animation-range: 80vh 81vh;
 		animation-iteration-count: 1;
+	}
+
+	.animation-bounce-sm {
+		animation: bounce 2s infinite;
+	}
+
+	.blur-on-scroll {
+		animation: blur-on-scroll;
+		animation-duration: 1ms;
+		animation-direction: alternate;
+		animation-timeline: scroll(block nearest);
 	}
 
 	.animation-delay-500 {
@@ -75,12 +96,45 @@
 		animation-delay: 1.8s;
 	}
 
+	.animation-delay-2000 {
+		animation-delay: 2s;
+	}
+
 	.animation-delay-3000 {
 		animation-delay: 3s;
 	}
 
 	.animation-delay-2000 {
 		animation-delay: 2s;
+	}
+
+	.animation-delay-4000 {
+		animation-delay: 4s;
+	}
+}
+
+@keyframes blur-on-scroll {
+	0% {
+		--tw-blur: blur(0);
+	}
+	10% {
+		--tw-blur: blur(1px);
+		filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
+			var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert)
+			var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+		opacity: 10%;
+	}
+}
+
+@keyframes bounce {
+	0%,
+	100% {
+		transform: translateY(-2%);
+		animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+	}
+	50% {
+		transform: translateY(0%);
+		animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
 	}
 }
 
@@ -134,9 +188,20 @@
 	}
 }
 
-@keyframes title-slide-in-top {
+@keyframes text-slide-in-top {
 	from {
 		transform: translateY(-50%);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes slide-in-bottom {
+	from {
+		transform: translateY(100%);
 		opacity: 0;
 	}
 	to {
