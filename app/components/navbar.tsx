@@ -2,8 +2,8 @@ const Navbar = () => {
 	return (
 		<section className="slide-in-1000 animation-delay-2000 fixed z-10 w-full bg-transparent opacity-0 mix-blend-difference backdrop-blur-xl">
 			{/* desktop */}
-			<div className="flex  min-h-16 w-full justify-between text-stone-200 2xl:px-72">
-				<div className="content-center text-2xl font-bold fade-in-500 animation-delay-2000 opacity-0">
+			<div className="flex  min-h-20 w-full justify-between text-stone-200 sm:px-10 md:px-24 xl:px-40 2xl:px-72">
+				<div className="content-center text-5xl font-bold fade-in-500 animation-delay-2000 opacity-0">
 					<a href="#top">bcs</a>
 				</div>
 				<nav className="w-1/3 content-center">
