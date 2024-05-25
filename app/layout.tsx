@@ -6,8 +6,8 @@ import "./globals.css";
 const jost = Jost({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Architects website",
-  description: "Website for architects",
+  title: "Box Concept Studio",
+  description: "Box Concept Studio is a design studio based in Malta",
 };
 
 export default function RootLayout({
