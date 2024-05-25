@@ -15,8 +15,6 @@ const ProjectsSection = () => {
 							alt="odicy-lido"
 							width={1600}
 							height={1600}
-							placeholder="blur"
-							blurDataURL="/images/odicy-hotel.webp"
 							className="h-screen max-h-screen w-full cursor-default object-cover"
 						/>
 					</div>
@@ -39,8 +37,6 @@ const ProjectsSection = () => {
 							alt="odicy-lido"
 							width={1600}
 							height={1600}
-							placeholder="blur"
-							blurDataURL="/images/salvo-grima.webp"
 							className="h-screen w-full object-cover"
 						/>
 					</div>
@@ -63,8 +59,6 @@ const ProjectsSection = () => {
 							alt="odicy-lido"
 							width={1600}
 							height={1600}
-							placeholder="blur"
-							blurDataURL="/images/odicy-lido.webp"
 							className="h-screen w-full object-cover"
 						/>
 					</div>
@@ -87,8 +81,6 @@ const ProjectsSection = () => {
 							alt="odicy-lido"
 							width={1600}
 							height={1600}
-							placeholder="blur"
-							blurDataURL="/images/melieha-villa.webp"
 							className="h-screen w-full object-cover"
 						/>
 					</div>

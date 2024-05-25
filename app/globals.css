@@ -24,6 +24,10 @@
 		animation-fill-mode: forwards;
 	}
 
+	.img-fade-in-3000 {
+		animation: img-fade-in 3s ease;
+	}
+
 	.slide-in-1000 {
 		animation: slide-in-top 1s ease-out;
 		animation-fill-mode: forwards;
@@ -113,6 +117,18 @@
 	}
 }
 
+@keyframes img-fade-in {
+	0% {
+		opacity: 0;
+		filter: blur(20px);
+	}
+
+	10% {
+		opacity: 1;
+		filter: brightness(2) blur(10px);
+	}
+}
+
 @keyframes blur-on-scroll {
 	0% {
 		--tw-blur: blur(0);
@@ -123,6 +139,7 @@
 			var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert)
 			var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 		opacity: 10%;
+		background-color: white;
 	}
 }
 

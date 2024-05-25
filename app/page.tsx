@@ -21,7 +21,7 @@ export default function Home() {
 
   return (
     <main className="block bg-stone-200">
-      {isLoading && <Loading /> || 
+      {/* {isLoading && <Loading /> ||  */}
         <div id="content" className="fade-in-500">
           <Navbar />
           <HeroSection />
@@ -31,7 +31,7 @@ export default function Home() {
           <RecruitmentSection />
           <Footer />
         </div>
-      }
+      {/* } */}
     </main>
   );
 }
