@@ -20,7 +20,7 @@ const HeroSection = () => {
 					</div>
 					<div className="animation-bounce-sm relative flex h-[55vh] items-end justify-center">
 						<Link href="#projects-section">
-							<div className="slide-in-bottom-1000 animation-delay-4000 bottom-0 opacity-0">
+							<div className="slide-in-bottom-1000 animation-delay-3000 bottom-0 opacity-0">
 								<div className="h-20 w-20 -rotate-45 border-r-4 border-t-4 border-stone-400 border-opacity-50"></div>
 							</div>
 						</Link>
