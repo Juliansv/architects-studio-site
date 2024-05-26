@@ -11,8 +11,8 @@ const Footer = () => {
 						<p className="text-lg font-medium">info@box-cs.com</p>
 					</div>
 				</div>
-				<div className="flex justify-between">
-					<p className="m-auto">Copyright © 2024 box Concept Studio Ltd.</p>
+				<div className="flex ">
+					<p className="mx-auto content-end">Copyright © 2024 box Concept Studio Ltd.</p>
 				</div>
 				<div className="flex flex-col justify-between">
 					<div className="m-auto flex h-full flex-col justify-between">
